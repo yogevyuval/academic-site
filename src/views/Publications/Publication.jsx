@@ -40,9 +40,11 @@ function Publication(props) {
         <p style={styles.authors}>{props.pub.authors.join(", ") + " and Eylon Yogev"}</p>
         <p style={styles.location}>{props.pub.location}</p>
 
-        <Button style={styles.download} variant="fab" color="primary" aria-label="add" className={classes.button}>
-          <Save />
-        </Button>
+        <a href={props.pub.link} target="_blank">
+          <Button style={styles.download} variant="fab" color="primary" aria-label="add" className={classes.button}>
+            <Save />
+          </Button>
+        </a>
       </CardBody>
     </Card>
 
