@@ -32,8 +32,8 @@ function Contact(props) {
             </p>
 
 
-            <p style={styles.bold}>Email:&nbsp;</p><span style={styles.text}>gilc@princeton.edu</span> <br/>
-            <p style={styles.bold}>Office:&nbsp;</p><span style={styles.text}>413 Computer Science Department (though you are as likely to find me here).</span> <br/>
+            <p style={styles.bold}>Email:&nbsp;</p><span style={styles.text}>mail</span> <br/>
+            <p style={styles.bold}>Office:&nbsp;</p><span style={styles.text}>office</span> <br/>
             <p style={styles.bold}>Mailing address:&nbsp;</p><span style={styles.text}>Some address</span> <br/>
 
 
