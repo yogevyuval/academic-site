@@ -42,10 +42,12 @@ function Publication(props) {
 		</a>
         <p style={styles.authors}>{props.pub.authors.sort().join(", ") + " and Eylon Yogev"}</p>
         <p style={styles.location}>{props.pub.location}</p>
-        <a href={props.pub.link} target="_blank">
+        <a href={props.pub.pdf} target="_blank">
 		  <Button style={styles.download} variant="contained" color="secondary" aria-label="add" className={classes.button}>
             Journal
           </Button>
+		  </a>
+		  <a href={props.pub.pdf} target="_blank">
           <Button style={styles.download} variant="contained" color="primary" aria-label="add" className={classes.button}>
             PDF
           </Button>
