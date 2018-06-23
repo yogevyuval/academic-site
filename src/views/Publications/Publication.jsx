@@ -23,7 +23,8 @@ const styles = {
     fontWeight: 400
   },
   download: {
-    float: 'right'
+    float: 'right',
+	margin: '10px'
   },
   pub: {
     marginTop: '8px',
@@ -36,13 +37,17 @@ function Publication(props) {
   return (
     <Card style={styles.pub}>
       <CardBody>
+	  <a href={props.pub.link} target="_blank">
         <p style={styles.title}>{props.pub.title}</p>
+		</a>
         <p style={styles.authors}>{props.pub.authors.sort().join(", ") + " and Eylon Yogev"}</p>
         <p style={styles.location}>{props.pub.location}</p>
-
         <a href={props.pub.link} target="_blank">
-          <Button style={styles.download} variant="fab" color="primary" aria-label="add" className={classes.button}>
-            <Save />
+		  <Button style={styles.download} variant="contained" color="secondary" aria-label="add" className={classes.button}>
+            Journal
+          </Button>
+          <Button style={styles.download} variant="contained" color="primary" aria-label="add" className={classes.button}>
+            PDF
           </Button>
         </a>
       </CardBody>

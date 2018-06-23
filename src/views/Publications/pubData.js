@@ -1,7 +1,7 @@
 const pubData = [
   {
     title: "Congested Clique Algorithms for Graph Spanners",
-    authors: ["Merav Parter", "a b"],
+    authors: ["Merav Parter"],
     location: "",
     link: "https://arxiv.org/pdf/1805.05404.pdf"
   },
@@ -103,36 +103,4 @@ const pubData = [
   }
 ];
 
-/**
-
-
-
-Moni Naor and Eylon Yogev.
-CRYPTO 2015.
-[PDF]
-
-Functional Encryption for Randomized Functionalities in the Private-Key Setting from Minimal Assumptions
-Ilan Komargodski, Gil Segev, and Eylon Yogev.
-TCC 2015.
-Journal of Cryptology 2017.
-[PDF] [Journal]
-
-One-Way Functions and (Im)Perfect Obfuscation
-Ilan Komargodski, Tal Moran, Moni Naor, Rafael Pass, Alon Rosen, and Eylon Yogev.
-FOCS 2014.
-[PDF] [Video]
-
-Secret-Sharing for NP
-Ilan Komargodski, Moni Naor, and Eylon Yogev.
-ASIACRYPT 2014.
-Journal of Cryptology 2015 (by invitation).
-[PDF] [Journal]
-
-Tight Bounds for Sliding Bloom Filters
-Moni Naor and Eylon Yogev.
-ISAAC 2013.
-Algorithmica (by invitation).
-[PDF] [Journal]
-
-**/
 export default pubData;
