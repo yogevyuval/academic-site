@@ -28,13 +28,11 @@ function Contact(props) {
         <Card>
           <CardBody>
             <p>
-              Please contact me for any question or comment.
+              Please feel free to contact me for collaboration or any question or comment.
             </p>
 
-
-            <p style={styles.bold}>Email:&nbsp;</p><span style={styles.text}>mail</span> <br/>
-            <p style={styles.bold}>Office:&nbsp;</p><span style={styles.text}>office</span> <br/>
-            <p style={styles.bold}>Mailing address:&nbsp;</p><span style={styles.text}>Some address</span> <br/>
+            <p style={styles.bold}>Email:&nbsp;</p><span style={styles.text}>eylony at gmail dot com</span> <br/>
+            <p style={styles.bold}>Office:&nbsp;</p><span style={styles.text}>Weizmann Institute of Science, Ziskind Building, Room 258. </span> <br/>
 
 
           </CardBody>

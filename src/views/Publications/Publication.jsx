@@ -37,7 +37,7 @@ function Publication(props) {
     <Card style={styles.pub}>
       <CardBody>
         <p style={styles.title}>{props.pub.title}</p>
-        <p style={styles.authors}>{props.pub.authors.join(", ") + " and Eylon Yogev"}</p>
+        <p style={styles.authors}>{props.pub.authors.sort().join(", ") + " and Eylon Yogev"}</p>
         <p style={styles.location}>{props.pub.location}</p>
 
         <a href={props.pub.link} target="_blank">
