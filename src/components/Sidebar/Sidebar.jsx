@@ -32,7 +32,8 @@ const styles = {
         marginBottom: "5px",
         verticalAlign: "middle",
         border: "0",
-        display: "inline-block"
+        display: "inline-block",
+        borderRadius: "50%"
     }
 }
 
