@@ -6,6 +6,8 @@ import CardHeader from "components/Card/CardHeader.jsx";
 import CardBody from "components/Card/CardBody.jsx";
 import Save from '@material-ui/icons/PictureAsPdf';
 import Button from '@material-ui/core/Button';
+const authors = {"Merav Parter": "google.com", "Moni Naor": "http://www.yahoo.com"};
+
 
 const styles = {
   title: {
@@ -24,7 +26,11 @@ const styles = {
   },
   download: {
     float: 'right',
-	margin: '10px'
+    margin: '10px'
+  },
+  date: {
+    float: 'right',
+    marginRight: '16px'
   },
   pub: {
     marginTop: '8px',
@@ -32,28 +38,61 @@ const styles = {
   }
 };
 
-function Publication(props) {
-  const { classes } = props;
-  return (
-    <Card style={styles.pub}>
+class Publication extends React.Component {
+
+  buildAuthor = (author) => {
+    console.log(authors[author])
+    if (authors[author]) {
+      return <a href={authors[author]} target="_blank">{author}</a>
+    } else {
+      return <span>{author}</span>
+    }
+  };
+
+  getAuthors = (pub) => {
+    let result = [];
+
+    if (pub.authors.length === 1) {
+      return [this.buildAuthor(pub.authors[0])]
+    }
+
+
+    let sortedAuthors = pub.authors.sort();
+
+    for (let [index, author] of sortedAuthors.slice(0, -1).entries()) {
+      result.push(this.buildAuthor(author));
+      result.push(<span>, </span>)
+    }
+    let lastAuthor = sortedAuthors.slice(-1)[0];
+
+    result.push(<span> and </span>);
+    result.push(this.buildAuthor(lastAuthor));
+    return result;
+  };
+
+  render = () => {
+    const props = this.props;
+
+
+    return (<Card style={styles.pub}>
       <CardBody>
-	  <a href={props.pub.link} target="_blank">
-        <p style={styles.title}>{props.pub.title}</p>
-		</a>
-        <p style={styles.authors}>{props.pub.authors.sort().join(", ") + " and Eylon Yogev"}</p>
+        <a href={props.pub.link} target="_blank">
+        <span style={styles.title}>{props.pub.title}</span>
+        </a>
+        <span style={styles.date}>{props.pub.date}</span>
+        <p style={styles.authors}>{this.getAuthors(props.pub)}</p>
         <p style={styles.location}>{props.pub.location}</p>
         <a href={props.pub.link} target="_blank">
-		  <Button style={styles.download} variant="contained" color="secondary" aria-label="add" className={classes.button}>
+          <Button style={styles.download} variant="contained" color="secondary" aria-label="add" >
             Journal
           </Button>
-          <Button style={styles.download} variant="contained" color="primary" aria-label="add" className={classes.button}>
+          <Button style={styles.download} variant="contained" color="primary" aria-label="add">
             PDF
           </Button>
         </a>
       </CardBody>
-    </Card>
-
-  );
+    </Card>);
+  }
 }
 
 export default withStyles(styles)(Publication);
