@@ -1,49 +1,49 @@
 const pubData = [
   {
     title: "Congested Clique Algorithms for Graph Spanners",
-    authors: ["Merav Parter"],
+    authors: ["Eylon Yogev", "Merav Parter"],
     location: "",
     pdf: "https://arxiv.org/pdf/1805.05404.pdf",
 	date: "2018"
   },
   {
     title: "On Distributional Collision Resistant Hashing",
-    authors: ["Ilan Komargodski"],
+    authors: ["Eylon Yogev", "Ilan Komargodski"],
     location: "CRYPTO 2018",
     pdf: "https://eprint.iacr.org/2018/480.pdf",
 	date: "2018"
   },
   {
     title: "Another Step Towards Realizing Random Oracles: Non-Malleable Point Obfuscation",
-    authors: ["Ilan Komargodski"],
+    authors: ["Eylon Yogev", "Ilan Komargodski"],
     location: "EUROCRYPT 2018",
     pdf: "https://eprint.iacr.org/2018/149.pdf",
 	date: "2018"
   },
   {
     title: "Distributed Computing Made Secure: A New Cycle Cover Theorem",
-    authors: ["Merav Parter"],
+    authors: ["Eylon Yogev", "Merav Parter"],
     location: "",
     pdf: "https://arxiv.org/abs/1712.01139",
 	date: "2018"
   },
   {
     title: "Non-Interactive Multiparty Computation without Correlated Randomness",
-    authors: ["Shai Halevi", "Yuval Ishai", "Abhishek Jain", "Ilan Komargodski", "Amit Sahai"],
+    authors: ["Eylon Yogev", "Shai Halevi", "Yuval Ishai", "Abhishek Jain", "Ilan Komargodski", "Amit Sahai"],
     location: "ASIACRYPT 2017",
     pdf: "https://eprint.iacr.org/2017/871.pdf",
 	date: "2018"
   },
   {
     title: "Collision Resistant Hashing for Paranoids: Dealing with Multiple Collisions",
-    authors: ["Ilan Komargodski", "Moni Naor"],
+    authors: ["Eylon Yogev", "Ilan Komargodski", "Moni Naor"],
     location: "EUROCRYPT 2018",
     pdf: "http://eprint.iacr.org/2017/486.pdf",
 	date: "2018"
   },
   {
     title: "White-Box vs. Black-Box Complexity of Search Problems: Ramsey and Graph Property Testing",
-    authors: ["Ilan Komargodski", "Moni Naor"],
+    authors: ["Eylon Yogev", "Ilan Komargodski", "Moni Naor"],
     location: "FOCS 2017",
     pdf: "https://eccc.weizmann.ac.il/report/2017/015/",
 	date: "2017",
@@ -51,14 +51,14 @@ const pubData = [
   },
   {
     title: "The Deep Journey from Content to Collaborative Filtering",
-    authors: ["Oren Barkan", "Noam Koenigstein"],
+    authors: ["Eylon Yogev", "Oren Barkan", "Noam Koenigstein"],
     location: "",
     pdf: "https://arxiv.org/pdf/1611.00384",
 	date: "2017"
   },
   {
     title: "The Journey from NP to TFNP Hardness",
-    authors: ["Pavel Hubáček", "Moni Naor"],
+    authors: ["Eylon Yogev", "Pavel Hubáček", "Moni Naor"],
     location: "ITCS 2017 (honorary invited)",
     pdf: "http://eccc.hpi-web.de/report/2016/199/",
 	date: "2017",
@@ -66,21 +66,21 @@ const pubData = [
   },
   {
     title: "Hardness of Continuous Local Search: Query Complexity and Cryptographic Lower Bounds",
-    authors: ["Pavel Hubáček"],
+    authors: ["Eylon Yogev", "Pavel Hubáček"],
     location: "SODA 2017",
     pdf: "http://eccc.hpi-web.de/report/2016/063/",
 	date: "2017"
   },
   {
     title: "Universal Constructions and Robust Combiners for Indistinguishability Obfuscation and Witness Encryption",
-    authors: ["Prabhanjan Ananth", "Aayush Jain", "Moni Naor", "Amit Sahai"],
+    authors: ["Eylon Yogev", "Prabhanjan Ananth", "Aayush Jain", "Moni Naor", "Amit Sahai"],
     location: "CRYPTO 2016",
     pdf: "http://eprint.iacr.org/2016/281.pdf",
 	date: "2016"
   },
   {
     title: "How to Share a Secret, Infinitely",
-    authors: ["Ilan Komargodski", "Moni Naor"],
+    authors: ["Eylon Yogev", "Ilan Komargodski", "Moni Naor"],
     location: "TCC 2016-B",
     pdf: "http://eccc.hpi-web.de/report/2016/023/download",
 	date: "2016",
@@ -88,14 +88,14 @@ const pubData = [
   },
   {
     title: "Bloom Filters in Adversarial Environments",
-    authors: ["Moni Naor"],
+    authors: ["Eylon Yogev", "Moni Naor"],
     location: "CRYPTO 2015",
     pdf: "http://arxiv.org/pdf/1412.8356v2",
 	date: "2015"
   },
   {
     title: "Functional Encryption for Randomized Functionalities in the Private-Key Setting from Minimal Assumptions",
-    authors: ["Ilan Komargodski", "Gil Segev"],
+    authors: ["Eylon Yogev", "Ilan Komargodski", "Gil Segev"],
     location: "TCC 2015",
     pdf: "https://eprint.iacr.org/2014/868.pdf",
 	date: "2015",
@@ -103,7 +103,7 @@ const pubData = [
   },
   {
     title: "One-Way Functions and (Im)Perfect Obfuscation",
-    authors: ["Ilan Komargodski", "Tal Moran", "Moni Naor", "Rafael Pass", "Alon Rosen"],
+    authors: ["Eylon Yogev", "Ilan Komargodski", "Tal Moran", "Moni Naor", "Rafael Pass", "Alon Rosen"],
     location: "FOCS 2014",
     pdf: "https://eprint.iacr.org/2014/347.pdf",
 	date: "2014",
@@ -111,7 +111,7 @@ const pubData = [
   },
   {
     title: "Secret-Sharing for NP",
-    authors: ["Ilan Komargodski", "Moni Naor"],
+    authors: ["Eylon Yogev", "Ilan Komargodski", "Moni Naor"],
     location: "ASIACRYPT 2014",
     pdf: "https://eprint.iacr.org/2014/213.pdf",
 	date: "2014",
@@ -119,7 +119,7 @@ const pubData = [
   },
   {
     title: "Tight Bounds for Sliding Bloom Filters",
-    authors: ["Moni Naor"],
+    authors: ["Eylon Yogev", "Moni Naor"],
     location: "ISAAC 2013",
     pdf: "http://arxiv.org/pdf/1304.5872v6.pdf",
 	date: "2013",
