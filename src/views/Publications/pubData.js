@@ -2,7 +2,7 @@ const pubData = [
   {
     title: "Congested Clique Algorithms for Graph Spanners",
     authors: ["Eylon Yogev", "Merav Parter"],
-    location: "",
+    location: "Manuscript",
     pdf: "https://arxiv.org/pdf/1805.05404.pdf",
 	date: "2018"
   },
@@ -23,7 +23,7 @@ const pubData = [
   {
     title: "Distributed Computing Made Secure: A New Cycle Cover Theorem",
     authors: ["Eylon Yogev", "Merav Parter"],
-    location: "",
+    location: "Manuscript",
     pdf: "https://arxiv.org/abs/1712.01139",
 	date: "2018"
   },
@@ -54,7 +54,7 @@ const pubData = [
   {
     title: "The Deep Journey from Content to Collaborative Filtering",
     authors: ["Eylon Yogev", "Oren Barkan", "Noam Koenigstein"],
-    location: "",
+    location: "Manuscript",
     pdf: "https://arxiv.org/pdf/1611.00384",
 	date: "2017"
   },
