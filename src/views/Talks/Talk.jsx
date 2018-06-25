@@ -26,7 +26,7 @@ const styles = {
         marginRight: '16px',
         fontSize: '15px'
     },
-    pub: {
+    talk: {
         marginTop: '8px',
         marginBottom: '8px'
     }
@@ -37,9 +37,23 @@ class Talk extends React.Component {
         const props = this.props;
         
 
-        return (<Card style={styles.pub}>
+        return (<Card style={styles.talk}>
             <CardBody>
-                
+                <a className="title" href={props.talk.link} target="_blank">
+                    {props.index}. {props.talk.title}
+                </a>
+                <span style={styles.date}>{props.talk.date}</span>
+
+                <div>
+                    <p style={{margin: 0}}>{props.talk.location}</p>
+                    {props.talk.journal ? <p style={{margin: 0}}>{props.talk.journal.text}</p> : null}
+                </div>
+
+
+                <div style={{display: "inline-block", float:'right'}}>
+
+                </div>
+
             </CardBody>
         </Card>);
     };
