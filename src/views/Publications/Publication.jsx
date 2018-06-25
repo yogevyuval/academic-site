@@ -82,17 +82,20 @@ class Publication extends React.Component {
         <span style={styles.date}>{props.pub.date}</span>
         <p style={styles.authors}>{this.getAuthors(props.pub)}</p>
         <p style={styles.location}>{props.pub.location}</p>
-        <a href={props.pub.link} target="_blank">
-          <Button style={styles.download} variant="contained" color="secondary" aria-label="add" >
+        <a href={props.pub.pdf} target="_blank">
+		  <Button style={styles.download} variant="contained" color="secondary" aria-label="add" className={classes.button}>
             Journal
           </Button>
-          <Button style={styles.download} variant="contained" color="primary" aria-label="add">
+		  </a>
+		  <a href={props.pub.pdf} target="_blank">
+          <Button style={styles.download} variant="contained" color="primary" aria-label="add" className={classes.button}>
             PDF
           </Button>
         </a>
       </CardBody>
-    </Card>);
-  }
+    </Card>
+
+  );
 }
 
 export default withStyles(styles)(Publication);
