@@ -15,7 +15,7 @@ import dashboardRoutes from "routes/dashboard.jsx";
 import dashboardStyle from "assets/jss/material-dashboard-react/layouts/dashboardStyle.jsx";
 
 import image from "assets/img/sidebar-4.jpg";
-import logo from "assets/img/devil.png";
+import logo from "assets/img/cwurv-IT_400x400.png";
 
 const switchRoutes = (
   <Switch>
