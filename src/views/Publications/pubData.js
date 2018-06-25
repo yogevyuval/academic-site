@@ -38,16 +38,16 @@ const pubData = [
     title: "Collision Resistant Hashing for Paranoids: Dealing with Multiple Collisions",
     authors: ["Ilan Komargodski", "Moni Naor"],
     location: "EUROCRYPT 2018",
-    link: "http://eprint.iacr.org/2017/486.pdf",
+    pdf: "http://eprint.iacr.org/2017/486.pdf",
 	date: "2018"
   },
   {
     title: "White-Box vs. Black-Box Complexity of Search Problems: Ramsey and Graph Property Testing",
     authors: ["Ilan Komargodski", "Moni Naor"],
     location: "FOCS 2017",
-    link: "https://eccc.weizmann.ac.il/report/2017/015/",
+    pdf: "https://eccc.weizmann.ac.il/report/2017/015/",
 	date: "2017",
-	custom: {"Text": "Goldreich's take", "url": "http://www.wisdom.weizmann.ac.il/~oded/MC/216.html"}
+	custom: {text: "Goldreich's take", "url": "http://www.wisdom.weizmann.ac.il/~oded/MC/216.html"}
   },
   {
     title: "The Deep Journey from Content to Collaborative Filtering",
@@ -62,7 +62,7 @@ const pubData = [
     location: "ITCS 2017 (honorary invited)",
     pdf: "http://eccc.hpi-web.de/report/2016/199/",
 	date: "2017",
-	custom: {"Text": "Lecture Notes", "url":"https://arxiv.org/pdf/1801.00734.pdf"}
+	custom: {text: "Lecture Notes", "url":"https://arxiv.org/pdf/1801.00734.pdf"}
   },
   {
     title: "Hardness of Continuous Local Search: Query Complexity and Cryptographic Lower Bounds",
@@ -84,7 +84,7 @@ const pubData = [
     location: "TCC 2016-B",
     pdf: "http://eccc.hpi-web.de/report/2016/023/download",
 	date: "2016",
-	journal: {Text: "IEEE Transactions on Information Theory, 2017", url:"http://ieeexplore.ieee.org/document/8125701/"}
+	journal: {text: "IEEE Transactions on Information Theory, 2017", url:"http://ieeexplore.ieee.org/document/8125701/"}
   },
   {
     title: "Bloom Filters in Adversarial Environments",
@@ -99,7 +99,7 @@ const pubData = [
     location: "TCC 2015",
     pdf: "https://eprint.iacr.org/2014/868.pdf",
 	date: "2015",
-	journal: {Text: "Journal of Cryptology 2017", url:"https://link.springer.com/article/10.1007/s00145-016-9250-8"}
+	journal: {text: "Journal of Cryptology 2017", url:"https://link.springer.com/article/10.1007/s00145-016-9250-8"}
   },
   {
     title: "One-Way Functions and (Im)Perfect Obfuscation",
@@ -115,7 +115,7 @@ const pubData = [
     location: "ASIACRYPT 2014",
     pdf: "https://eprint.iacr.org/2014/213.pdf",
 	date: "2014",
-	journal: {Text: "Journal of Cryptology 2015 (by invitation)", url:"http://link.springer.com/article/10.1007/s00145-015-9226-0"}
+	journal: {text: "Journal of Cryptology 2015 (by invitation)", url:"http://link.springer.com/article/10.1007/s00145-015-9226-0"}
   },
   {
     title: "Tight Bounds for Sliding Bloom Filters",
@@ -123,7 +123,7 @@ const pubData = [
     location: "ISAAC 2013",
     pdf: "http://arxiv.org/pdf/1304.5872v6.pdf",
 	date: "2013",
-	journal: {Text: "Algorithmica (by invitation)", url:"http://link.springer.com/article/10.1007%2Fs00453-015-0007-9"}
+	journal: {text: "Algorithmica (by invitation)", url:"http://link.springer.com/article/10.1007%2Fs00453-015-0007-9"}
   }
 ];
 
