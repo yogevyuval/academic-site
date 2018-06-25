@@ -19,7 +19,7 @@ function Publications(props) {
     const pubs = pubData.map((pub, index) =>
 
         <GridItem xs={10} sm={10} md={10}>
-            <Publication index={index+1} key={index} pub={pub}/>
+            <Publication index={pubData.length - index} key={index} pub={pub}/>
         </GridItem>
     );
     return (
