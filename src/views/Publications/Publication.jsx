@@ -4,7 +4,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import Card from "components/Card/Card.jsx";
 import CardHeader from "components/Card/CardHeader.jsx";
 import CardBody from "components/Card/CardBody.jsx";
-import Save from '@material-ui/icons/PictureAsPdf';
+import Video from '@material-ui/icons/OndemandVideo';
 import Button from '@material-ui/core/Button';
 import authors from './authors'
 import './publication.css'
@@ -92,6 +92,12 @@ class Publication extends React.Component {
                 {props.pub.pdf ? <a href={props.pub.pdf} target="_blank">
                     <Button style={styles.download} variant="contained" color="primary" aria-label="add">
                         PDF
+                    </Button>
+                </a> : null}
+
+                {props.pub.video ? <a href={props.pub.video} target="_blank">
+                    <Button style={styles.download} variant="contained" color="secondary" aria-label="add">
+                        <Video/>
                     </Button>
                 </a> : null}
 

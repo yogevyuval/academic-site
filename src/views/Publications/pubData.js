@@ -107,7 +107,7 @@ const pubData = [
     location: "FOCS 2014",
     pdf: "https://eprint.iacr.org/2014/347.pdf",
 	date: "2014",
-	Video: "http://techtalks.tv/talks/one-way-functions-and-imperfect-obfuscation/61327/"
+	video: "http://techtalks.tv/talks/one-way-functions-and-imperfect-obfuscation/61327/"
   },
   {
     title: "Secret-Sharing for NP",
