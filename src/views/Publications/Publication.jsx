@@ -20,7 +20,6 @@ const styles = {
         fontWeight: 400
     },
     download: {
-        float: 'right',
         margin: '10px'
     },
     date: {
@@ -35,6 +34,10 @@ const styles = {
 };
 
 class Publication extends React.Component {
+
+    lastNameSort = (a,b) => {
+        return a.split(" ").pop()[0] > b.split(" ").pop()[0]
+    };
 
     buildAuthor = (author) => {
         if (authors[author]) {
@@ -52,7 +55,7 @@ class Publication extends React.Component {
         }
 
 
-        let sortedAuthors = pub.authors.sort();
+        let sortedAuthors = pub.authors.sort(this.lastNameSort);
 
         for (let [index, author] of sortedAuthors.slice(0, -1).entries()) {
             result.push(this.buildAuthor(author));
@@ -83,29 +86,34 @@ class Publication extends React.Component {
                 </div>
 
 
-                {props.pub.journal ? <a href={props.pub.journal.url} target="_blank">
-                    <Button style={styles.download} variant="contained" color="primary" aria-label="add">
-                        Journal
-                    </Button>
-                </a> : null}
 
-                {props.pub.pdf ? <a href={props.pub.pdf} target="_blank">
-                    <Button style={styles.download} variant="contained" color="primary" aria-label="add">
-                        PDF
-                    </Button>
-                </a> : null}
 
-                {props.pub.video ? <a href={props.pub.video} target="_blank">
-                    <Button style={styles.download} variant="contained" color="secondary" aria-label="add">
-                        <Video/>
-                    </Button>
-                </a> : null}
+                <div style={{display: "inline-block", float:'right'}}>
+                    {props.pub.video ? <a href={props.pub.video} target="_blank">
+                        <Button style={styles.download} variant="contained" color="secondary" aria-label="add">
+                            <Video/>
+                        </Button>
+                    </a> : null}
 
-                {props.pub.custom ? <a href={props.pub.custom.link} target="_blank">
-                    <Button style={styles.download} variant="contained" color="secondary" aria-label="add">
-                        {props.pub.custom.text}
-                    </Button>
-                </a> : null}
+                    {props.pub.custom ? <a href={props.pub.custom.link} target="_blank">
+                        <Button style={styles.download} variant="contained" color="secondary" aria-label="add">
+                            {props.pub.custom.text}
+                        </Button>
+                    </a> : null}
+
+                    {props.pub.journal ? <a href={props.pub.journal.url} target="_blank">
+                        <Button style={styles.download} variant="contained" color="primary" aria-label="add">
+                            Journal
+                        </Button>
+                    </a> : null}
+
+                    {props.pub.pdf ? <a href={props.pub.pdf} target="_blank">
+                        <Button style={styles.download} variant="contained" color="primary" aria-label="add">
+                            PDF
+                        </Button>
+                    </a> : null}
+                </div>
+
 
 
             </CardBody>
