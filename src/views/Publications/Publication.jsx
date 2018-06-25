@@ -34,7 +34,7 @@ const styles = {
 };
 
 class Publication extends React.Component {
-
+    
     lastNameSort = (a,b) => {
         return a.split(" ").pop()[0] > b.split(" ").pop()[0]
     };
@@ -70,12 +70,12 @@ class Publication extends React.Component {
 
     render = () => {
         const props = this.props;
-
+        
 
         return (<Card style={styles.pub}>
             <CardBody>
                 <a className="title" href={props.pub.pdf} target="_blank">
-                    {props.pub.title}
+                    {props.index}. {props.pub.title}
                 </a>
                 <span style={styles.date}>{props.pub.date}</span>
                 <p style={styles.authors}>{this.getAuthors(props.pub)}</p>
@@ -84,8 +84,6 @@ class Publication extends React.Component {
                     <p style={{margin: 0}}>{props.pub.location}</p>
                     {props.pub.journal ? <p style={{margin: 0}}>{props.pub.journal.text}</p> : null}
                 </div>
-
-
 
 
                 <div style={{display: "inline-block", float:'right'}}>
@@ -116,8 +114,6 @@ class Publication extends React.Component {
                         </Button>
                     </a> : null}
                 </div>
-
-
 
             </CardBody>
         </Card>);
