@@ -89,17 +89,13 @@ class Publication extends React.Component {
 
 
                 <div style={{display: "inline-block", float:'right'}}>
-                    {props.pub.video ? <a href={props.pub.video} target="_blank">
-                        <Button style={styles.download} variant="contained" color="secondary" aria-label="add">
-                            <Video/>
+
+                    {props.pub.pdf ? <a href={props.pub.pdf} target="_blank">
+                        <Button style={styles.download} variant="contained" color="primary" aria-label="add">
+                            PDF
                         </Button>
                     </a> : null}
 
-                    {props.pub.custom ? <a href={props.pub.custom.link} target="_blank">
-                        <Button style={styles.download} variant="contained" color="secondary" aria-label="add">
-                            {props.pub.custom.text}
-                        </Button>
-                    </a> : null}
 
                     {props.pub.journal ? <a href={props.pub.journal.url} target="_blank">
                         <Button style={styles.download} variant="contained" color="primary" aria-label="add">
@@ -107,9 +103,16 @@ class Publication extends React.Component {
                         </Button>
                     </a> : null}
 
-                    {props.pub.pdf ? <a href={props.pub.pdf} target="_blank">
-                        <Button style={styles.download} variant="contained" color="primary" aria-label="add">
-                            PDF
+                    {props.pub.video ? <a href={props.pub.video} target="_blank">
+                        <Button style={styles.download} variant="contained" color="secondary" aria-label="add">
+                            <Video/>
+                        </Button>
+                    </a> : null}
+
+
+                    {props.pub.custom ? <a href={props.pub.custom.link} target="_blank">
+                        <Button style={styles.download} variant="contained" color="secondary" aria-label="add">
+                            {props.pub.custom.text}
                         </Button>
                     </a> : null}
                 </div>
