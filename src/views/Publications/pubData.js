@@ -32,7 +32,8 @@ const pubData = [
     authors: ["Shai Halevi", "Yuval Ishai", "Abhishek Jain", "Ilan Komargodski", "Amit Sahai"],
     location: "ASIACRYPT 2017",
     pdf: "https://eprint.iacr.org/2017/871.pdf",
-	date: "2018"
+  date: "2018",
+  video: "https://www.youtube.com/watch?v=o3ogkdrzoP0"
   },
   {
     title: "Collision Resistant Hashing for Paranoids: Dealing with Multiple Collisions",
@@ -46,8 +47,9 @@ const pubData = [
     authors: ["Ilan Komargodski", "Moni Naor"],
     location: "FOCS 2017",
     pdf: "https://eccc.weizmann.ac.il/report/2017/015/",
-	date: "2017",
-	custom: {text: "Goldreich's take", "url": "http://www.wisdom.weizmann.ac.il/~oded/MC/216.html"}
+	  date: "2017",
+    custom: {text: "Goldreich's take", "url": "http://www.wisdom.weizmann.ac.il/~oded/MC/216.html"},
+    video: "https://slideslive.com/38904573/whitebox-vs-blackbox-search-problems-a-cryptographic-perspective"
   },
   {
     title: "The Deep Journey from Content to Collaborative Filtering",
@@ -76,7 +78,8 @@ const pubData = [
     authors: ["Prabhanjan Ananth", "Aayush Jain", "Moni Naor", "Amit Sahai"],
     location: "CRYPTO 2016",
     pdf: "http://eprint.iacr.org/2016/281.pdf",
-	date: "2016"
+    date: "2016",
+    video: "https://www.youtube.com/watch?v=rZLiX4fx8Xs"
   },
   {
     title: "How to Share a Secret, Infinitely",
