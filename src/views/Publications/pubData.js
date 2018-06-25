@@ -94,7 +94,8 @@ const pubData = [
     authors: ["Moni Naor"],
     location: "CRYPTO 2015",
     pdf: "http://arxiv.org/pdf/1412.8356v2",
-	date: "2015"
+    date: "2015",
+    video: "https://www.youtube.com/watch?v=uRgVuZezWy0"
   },
   {
     title: "Functional Encryption for Randomized Functionalities in the Private-Key Setting from Minimal Assumptions",
