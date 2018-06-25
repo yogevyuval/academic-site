@@ -6,8 +6,8 @@ const cardAvatarStyle = {
     }
   },
   cardAvatarProfile: {
-    maxWidth: "200px",
-    maxHeight: "200px",
+    maxWidth: "150px",
+    maxHeight: "150px",
     margin: "-50px auto 0",
     borderRadius: "50%",
     overflow: "hidden",
