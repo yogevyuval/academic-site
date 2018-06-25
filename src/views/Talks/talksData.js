@@ -25,7 +25,7 @@ const talksData = [
   },
   {
     title: "The Journey from NP to TFNP Hardness",
-    link: "",
+    link: "https://www.youtube.com/watch?v=LIrOFEMzf0c",
     date: "January 2015",
     location: "ITCS Conference, Berkeley" 
   },
@@ -102,8 +102,8 @@ const talksData = [
     location: "GTACS, MTA" 
   },
   {
-    title: "White-Box vs. Black-Box Complexity of Search Problems",
-    link: "",
+    title: "Search Problems: A Cryptographic Perspective",
+    link: "https://www.youtube.com/watch?v=9kk474OV3r8",
     date: "September 2017",
     location: "I-CORE day, Tel Aviv University" 
   },
