@@ -6,6 +6,8 @@ import LiveTv from "@material-ui/icons/LiveTv";
 
 import UserProfile from "views/UserProfile/UserProfile.jsx";
 import Publications from "views/Publications/Publications.jsx";
+import Talks from "views/Talks/Talks.jsx";
+
 import Contact from "views/Contact/Contact.jsx";
 
 
@@ -29,7 +31,7 @@ const dashboardRoutes = [
     sidebarName: "Talks",
     navbarName: "Talks",
     icon: LiveTv,
-    component: Contact
+    component: Talks
   },
   {
     path: "/contact",
