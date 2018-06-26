@@ -81,10 +81,9 @@ class Publication extends React.Component {
                 <p style={styles.authors}>{this.getAuthors(props.pub)}</p>
 
                 <div style={styles.location}>
-                    <p style={{margin: 0}}>{props.pub.location}</p>
-                    {props.pub.journal ? <p style={{margin: 0}}>{props.pub.journal.text}</p> : null}
+                    <p style={{margin: 0}} dangerouslySetInnerHTML={{__html: props.pub.location}}></p>
+                    {props.pub.journal ? <p style={{margin: 0}} dangerouslySetInnerHTML={{__html: props.pub.journal.text}}></p> : null}
                 </div>
-
 
                 <div style={{display: "inline-block", float:'right'}}>
 
@@ -114,7 +113,7 @@ class Publication extends React.Component {
                         </Button>
                     </a> : null}
                 </div>
-
+                
             </CardBody>
         </Card>);
     };

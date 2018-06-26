@@ -219,3 +219,8 @@ footer ul li a:hover {
         overflow-x: hidden;
     }
 }
+
+.invited{
+    color:red;
+    font-weight: bold;
+}
