@@ -48,7 +48,7 @@ const pubData = [
     location: "FOCS 2017",
     pdf: "https://eccc.weizmann.ac.il/report/2017/015/",
 	  date: "2017",
-    custom: {text: "Goldreich's take", "url": "http://www.wisdom.weizmann.ac.il/~oded/MC/216.html"},
+    custom: {text: "Goldreich's take", "link": "http://www.wisdom.weizmann.ac.il/~oded/MC/216.html"},
     video: "https://slideslive.com/38904573/whitebox-vs-blackbox-search-problems-a-cryptographic-perspective"
   },
   {
@@ -64,7 +64,7 @@ const pubData = [
     location: "ITCS 2017 (honorary invited)",
     pdf: "http://eccc.hpi-web.de/report/2016/199/",
 	date: "2017",
-	custom: {text: "Lecture Notes", "url":"https://arxiv.org/pdf/1801.00734.pdf"}
+	custom: {text: "Lecture Notes", "link":"https://arxiv.org/pdf/1801.00734.pdf"}
   },
   {
     title: "Hardness of Continuous Local Search: Query Complexity and Cryptographic Lower Bounds",
@@ -128,6 +128,13 @@ const pubData = [
     pdf: "http://arxiv.org/pdf/1304.5872v6.pdf",
 	date: "2013",
 	journal: {text: "Algorithmica (by invitation)", url:"http://link.springer.com/article/10.1007%2Fs00453-015-0007-9"}
+  },
+  {
+    title: "Search Problems: A Cryptographic Perspective",
+    authors: ["Eylon Yogev"],
+    location: "Ph.D. Thesis",
+    pdf: "pdf/thesis.pdf",
+	  date: "2018"
   }
 ];
 

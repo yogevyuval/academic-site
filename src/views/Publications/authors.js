@@ -13,7 +13,8 @@ const authors = {
     "Gil Segev": "http://www.cs.huji.ac.il/~segev/",
     "Tal Moran": "http://talmoran.net/",
     "Rafael Pass": "http://www.cs.cornell.edu/~rafael/",
-    "Alon Rosen": "http://www.eecs.harvard.edu/~alon/"
+    "Alon Rosen": "http://www.eecs.harvard.edu/~alon/",
+    "Moni Naor": "http://www.wisdom.weizmann.ac.il/~/naor/"
 };
 
 export default authors;
