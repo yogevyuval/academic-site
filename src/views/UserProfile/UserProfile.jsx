@@ -40,17 +40,17 @@ function UserProfile(props) {
                             <h6 className={classes.cardCategory}>Weizmann Institute of Science</h6>
                             
                             <p style={styles.description}>
-                                Hi! My name is Eylon and I'm a postdoc hosted by <a href="http://www.weizmann.ac.il/math/parter/home" target="_blank">Dr. Merav Parter </a> 
-                                where are working on some interesting synergies between Cryptography and Distributed Computation. See my latest <a href="/publications">publications</a> with Merav if you are curious
+                                Hi! My name is Eylon and I am a postdoc hosted by <a href="http://www.weizmann.ac.il/math/parter/home" target="_blank">Dr. Merav Parter </a> 
+                                where we are working on some interesting synergies between Cryptography and Distributed Computation. See my latest <a href="/publications">publications</a> with Merav if you are curious.
                             </p>
                             <p style={styles.description}>
-                                I have completed my Ph.D. at The Weizmann Institute of Science, where I was extremely lucky
+                                I have completed my Ph.D. at the Weizmann Institute of Science, where I was extremely lucky
                                 to be advised by <a href="http://www.wisdom.weizmann.ac.il/~/naor/" target="_blank">Prof. Moni Naor</a>. Before that, I completed my M.Sc at Weizmann in 2013 under the same
                                 supervisor.
                             </p>
                             
                             <p style={styles.description}>
-                                As you might have guessed already, I am generally interested in Cryptography but in particular in its various connections to other areas in
+                                As you might have guessed already, I am generally interested in Cryptography and in particular in its various connections to other areas in
                                 Theoretical Computer Science. Some of the most prominent examples include Complexity, Data Structures, Distributed
                                 Algorithms and Search Problems. Send me an <a href="/contact">email</a> if you are interested in such
                                 connections too!
