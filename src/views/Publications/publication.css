@@ -15,14 +15,18 @@
 }
 
 .authorLink {
-    color: black;
+    color: royalblue
 }
 
 .authorLink:hover {
-    color: pink;
+    color: darkred;
     -webkit-transition: ease 150ms;
     -moz-transition: ease 150ms;
     -ms-transition: ease 150ms;
     -o-transition: ease 150ms;
     transition: ease 150ms;
 }
+
+.invited{
+    color:red;    
+} 
