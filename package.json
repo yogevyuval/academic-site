@@ -1,7 +1,7 @@
 {
-  "name": "material-dashboard-react",
+  "name": "EylonYogevHomepage",
   "version": "1.2.0",
-  "description": "Material Dashboard React. Coded by Creative Tim",
+  "description": "Eylon Yogev - Homepage",
   "private": false,
   "main": "index.js",
   "dependencies": {
@@ -33,7 +33,7 @@
     "url": "git+https://github.com/creativetimofficial/material-dashboard-react.git"
   },
   "keywords": [],
-  "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
+  "author": "Eylon Yogev",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/creativetimofficial/material-dashboard-react/issues"
