@@ -119,7 +119,7 @@ const pubData = [
     location: "ASIACRYPT 2014",
     pdf: "https://eprint.iacr.org/2014/213.pdf",
 	date: "2014",
-	journal: {text: "Journal of Cryptology 2015 <span class='invited'>(by invitation)</span>", url:"http://link.springer.com/article/10.1007/s00145-015-9226-0"}
+	journal: {text: "<span class='invited'>Invited to Journal of Cryptology 2015</span>", url:"http://link.springer.com/article/10.1007/s00145-015-9226-0"}
   },
   {
     title: "Tight Bounds for Sliding Bloom Filters",
@@ -127,7 +127,7 @@ const pubData = [
     location: "ISAAC 2013",
     pdf: "http://arxiv.org/pdf/1304.5872v6.pdf",
 	date: "2013",
-	journal: {text: "Algorithmica <span class='invited'>(by invitation)</span>", url:"http://link.springer.com/article/10.1007%2Fs00453-015-0007-9"}
+	journal: {text: "<span class='invited'>Invitation to Algorithmica 2015</span>", url:"http://link.springer.com/article/10.1007%2Fs00453-015-0007-9"}
   },
   {
     title: "Search Problems: A Cryptographic Perspective",
