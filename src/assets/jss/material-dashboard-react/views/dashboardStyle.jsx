@@ -26,7 +26,7 @@ const dashboardStyle = {
     margin: "0",
     fontSize: "14px",
     marginTop: "0",
-    paddingTop: "10px",
+    paddingTop: "5px",
     marginBottom: "0"
   },
   cardCategoryWhite: {

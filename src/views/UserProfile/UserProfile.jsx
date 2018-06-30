@@ -9,7 +9,7 @@ import Card from "components/Card/Card.jsx";
 import CardAvatar from "components/Card/CardAvatar.jsx";
 import CardBody from "components/Card/CardBody.jsx";
 import {Link} from "react-router-dom"
-import avatar from "assets/img/faces/ilu.jpg";
+import avatar from "assets/img/faces/profile.jpeg";
 
 const styles = {
     description: {
