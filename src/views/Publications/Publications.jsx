@@ -12,20 +12,12 @@ const styles = {};
 
 
 class Publications extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            pubData: []
-        };
-        fetch("https://homepage-208315.firebaseio.com/publications.json?print=pretty")
-            .then(data => data.json())
-            .then(data => this.setState({pubData: data}))
-    }
+
     render = () => {
-        const pubs = this.state.pubData.map((pub, index) =>
+        const pubs = this.props.pubData.map((pub, index) =>
 
             <GridItem xs={10} sm={10} md={10}>
-                <Publication index={this.state.pubData.length - index} key={index} pub={pub}/>
+                <Publication authors={this.props.authors} index={this.props.pubData.length - index} key={index} pub={pub}/>
             </GridItem>
         );
         return (

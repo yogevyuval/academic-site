@@ -6,7 +6,6 @@ import CardHeader from "components/Card/CardHeader.jsx";
 import CardBody from "components/Card/CardBody.jsx";
 import Video from '@material-ui/icons/OndemandVideo';
 import Button from '@material-ui/core/Button';
-import authors from './authors'
 import './publication.css'
 
 const styles = {
@@ -40,8 +39,8 @@ class Publication extends React.Component {
     };
 
     buildAuthor = (author) => {
-        if (authors[author]) {
-            return <a key={author} className={"authorLink"} href={authors[author]} target="_blank">{author}</a>
+        if (this.props.authors[author]) {
+            return <a key={author} className={"authorLink"} href={this.props.authors[author]} target="_blank">{author}</a>
         } else {
             return <span key={author}>{author}</span>
         }
