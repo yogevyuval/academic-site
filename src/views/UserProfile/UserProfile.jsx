@@ -32,7 +32,7 @@ function UserProfile(props) {
                         <CardAvatar profile>
                             <img src={avatar} alt=".."/>
                         </CardAvatar>
-                        <CardBody profile>
+                        <CardBody style={{paddingTop: 0}} profile>
                         <h4 style={styles.title}>Eylon Yogev</h4>
                             <h6 className={classes.cardCategory}>Weizmann Institute of Science</h6>
                             
