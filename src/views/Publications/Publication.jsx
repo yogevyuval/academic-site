@@ -41,9 +41,9 @@ class Publication extends React.Component {
 
     buildAuthor = (author) => {
         if (authors[author]) {
-            return <a className={"authorLink"} href={authors[author]} target="_blank">{author}</a>
+            return <a key={author} className={"authorLink"} href={authors[author]} target="_blank">{author}</a>
         } else {
-            return <span>{author}</span>
+            return <span key={author}>{author}</span>
         }
     };
 
@@ -59,7 +59,7 @@ class Publication extends React.Component {
 
         for (let [index, author] of sortedAuthors.slice(0, -1).entries()) {
             result.push(this.buildAuthor(author));
-            result.push(<span>, </span>)
+            result.push(<span key={index}>, </span>)
         }
         let lastAuthor = sortedAuthors.slice(-1)[0];
 
