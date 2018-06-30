@@ -3,7 +3,6 @@ import React from "react";
 import withStyles from "@material-ui/core/styles/withStyles";
 
 import Card from "components/Card/Card.jsx";
-import CardHeader from "components/Card/CardHeader.jsx";
 import CardBody from "components/Card/CardBody.jsx";
 import Grid from "@material-ui/core/Grid";
 import GridItem from "components/Grid/GridItem.jsx";
@@ -21,10 +20,9 @@ const styles = {
   }
 };
 function Contact(props) {
-  const { classes } = props;
   return (
     <Grid justify="center" container>
-      <GridItem xs={10} sm={10} md={10}>
+      <GridItem xs={11} sm={11} md={11}>
         <Card>
           <CardBody>
             <p>

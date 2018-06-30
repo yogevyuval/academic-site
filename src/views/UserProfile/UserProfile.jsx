@@ -2,15 +2,12 @@ import React from "react";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 import Grid from "@material-ui/core/Grid";
-import InputLabel from "@material-ui/core/InputLabel";
 // core components
 import GridItem from "components/Grid/GridItem.jsx";
 import Button from "components/CustomButtons/Button.jsx";
 import Card from "components/Card/Card.jsx";
-import CardHeader from "components/Card/CardHeader.jsx";
 import CardAvatar from "components/Card/CardAvatar.jsx";
 import CardBody from "components/Card/CardBody.jsx";
-import CardFooter from "components/Card/CardFooter.jsx";
 import {Link} from "react-router-dom"
 import avatar from "assets/img/faces/ilu.jpg";
 
@@ -40,12 +37,12 @@ function UserProfile(props) {
                             <h6 className={classes.cardCategory}>Weizmann Institute of Science</h6>
                             
                             <p style={styles.description}>
-                                Hi! My name is Eylon and I am a postdoc hosted by <a href="http://www.weizmann.ac.il/math/parter/home" target="_blank">Dr. Merav Parter </a> 
+                                Hi! My name is Eylon and I am a postdoc hosted by <a href="http://www.weizmann.ac.il/math/parter/home" target="_blank" rel="noopener noreferrer">Dr. Merav Parter </a>
                                 where we are working on some interesting synergies between Cryptography and Distributed Computation. See my latest <a href="/publications">publications</a> with Merav if you are curious.
                             </p>
                             <p style={styles.description}>
                                 I have completed my Ph.D. at the Weizmann Institute of Science, where I was extremely lucky
-                                to be advised by <a href="http://www.wisdom.weizmann.ac.il/~/naor/" target="_blank">Prof. Moni Naor</a>. Before that, I completed my M.Sc at Weizmann in 2013 under the same
+                                to be advised by <a href="http://www.wisdom.weizmann.ac.il/~/naor/" target="_blank" rel="noopener noreferrer">Prof. Moni Naor</a>. Before that, I completed my M.Sc at Weizmann in 2013 under the same
                                 supervisor.
                             </p>
                             
