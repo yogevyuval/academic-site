@@ -37,8 +37,8 @@ function UserProfile(props) {
                             <h6 className={classes.cardCategory}>Weizmann Institute of Science</h6>
                             
                             <p style={styles.description}>
-                                Hi! My name is Eylon and I am a postdoc hosted by <a href="http://www.weizmann.ac.il/math/parter/home" target="_blank" rel="noopener noreferrer">Dr. Merav Parter </a>
-                                where we are working on some interesting synergies between Cryptography and Distributed Computation. See my latest <a href="/publications">publications</a> with Merav if you are curious.
+                                Hi, my name is Eylon and I am a postdoc hosted by <a href="http://www.weizmann.ac.il/math/parter/home" target="_blank" rel="noopener noreferrer">Dr. Merav Parter </a>.
+                                We are working on some interesting synergies between Cryptography and Distributed Computation. See my latest <a href="/publications">publications</a> with Merav if you are curious.
                             </p>
                             <p style={styles.description}>
                                 I have completed my Ph.D. at the Weizmann Institute of Science, where I was extremely lucky
