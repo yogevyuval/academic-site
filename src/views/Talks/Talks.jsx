@@ -15,7 +15,7 @@ class Talks extends React.Component {
     render() {
         const pubs = this.props.talks.map((talk, index) =>
 
-            <GridItem xs={10} sm={10} md={10}>
+            <GridItem xs={11} sm={11} md={11}>
                 <Talk index={this.props.talks.length - index} key={index} talk={talk}/>
             </GridItem>
         );
