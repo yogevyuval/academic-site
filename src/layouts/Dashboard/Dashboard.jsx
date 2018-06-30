@@ -26,18 +26,22 @@ class App extends React.Component {
         this.state = {
             pubData: [],
             authors: [],
-            talks: []
+            talks: [],
+            theses: []
         };
-        fetch("https://homepage-208315.firebaseio.com/publications.json?print=pretty")
+        fetch("https://homepage-208315.firebaseio.com/publications.json")
             .then(data => data.json())
             .then(data => this.setState({pubData: data}));
 
-        fetch("https://homepage-208315.firebaseio.com/authors.json?print=pretty")
+        fetch("https://homepage-208315.firebaseio.com/authors.json")
             .then(data => data.json())
             .then(data => this.setState({authors: data}));
-        fetch("https://homepage-208315.firebaseio.com/talks.json?print=pretty")
+        fetch("https://homepage-208315.firebaseio.com/talks.json")
             .then(data => data.json())
-            .then(data => this.setState({talks: data}))
+            .then(data => this.setState({talks: data}));
+        fetch("https://homepage-208315.firebaseio.com/theses.json")
+            .then(data => data.json())
+            .then(data => this.setState({theses: data}))
     }
 
     handleDrawerToggle = () => {
@@ -62,7 +66,7 @@ class App extends React.Component {
                         return <Redirect from={prop.path} to={prop.to} key={key}/>;
                     return <Route path={prop.path} render={() => {
                         const Comp = prop.component;
-                        return <Comp pubData={this.state.pubData} authors={this.state.authors} talks={this.state.talks}/>
+                        return <Comp pubData={this.state.pubData} authors={this.state.authors} talks={this.state.talks} theses={this.state.theses}/>
                     }
                     } key={key}/>;
                 })}

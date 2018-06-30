@@ -6,23 +6,23 @@ import Grid from "@material-ui/core/Grid";
 import GridItem from "components/Grid/GridItem.jsx";
 
 import Publication from "./Thesis.jsx"
-import pubData from './thesesData.js'
 
 const styles = {};
 
 
-function Publications(props) {
-    const pubs = pubData.map((pub, index) =>
-
-        <GridItem xs={11} sm={11} md={11}>
-            <Publication index={pubData.length - index} key={index} pub={pub}/>
-        </GridItem>
-    );
-    return (
-        <Grid justify="center" container>
-            {pubs}
-        </Grid>
-    );
+class Theses extends React.Component {
+    render() {
+        const pubs = this.props.theses.map((pub, index) =>
+            <GridItem xs={11} sm={11} md={11}>
+                <Publication index={this.props.theses.length - index} key={index} pub={pub}/>
+            </GridItem>
+        );
+        return (
+            <Grid justify="center" container>
+                {pubs}
+            </Grid>
+        );
+    }
 }
 
-export default withStyles(styles)(Publications);
+export default withStyles(styles)(Theses);
