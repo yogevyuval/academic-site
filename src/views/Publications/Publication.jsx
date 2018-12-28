@@ -53,7 +53,7 @@ class Publication extends React.Component {
         }
 
 
-        let sortedAuthors = pub.authors.sort((a,b) => -1);
+        let sortedAuthors = pub.authors.sort(this.lastNameSort);
 
         for (let [index, author] of sortedAuthors.slice(0, -1).entries()) {
             result.push(this.buildAuthor(author));
