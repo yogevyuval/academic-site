@@ -4,12 +4,13 @@ import Description from "@material-ui/icons/Description";
 import Email from "@material-ui/icons/Email";
 import LiveTv from "@material-ui/icons/LiveTv";
 import Thesis from "@material-ui/icons/Code";
+import ExtensionIcon from "@material-ui/icons/Extension";
 
 import UserProfile from "views/UserProfile/UserProfile.jsx";
 import Publications from "views/Publications/Publications.jsx";
 import Theses from "views/Theses/Theses.jsx";
 import Talks from "views/Talks/Talks.jsx";
-
+import Extension from "views/Extension/Extension.jsx";
 import Contact from "views/Contact/Contact.jsx";
 
 
@@ -41,6 +42,13 @@ const dashboardRoutes = [
     navbarName: "Theses",
     icon: Thesis,
     component: Theses
+  },
+  {
+    path: "/extension",
+    sidebarName: "Where's That Paper?",
+    navbarName: "Where's That Paper?",
+    icon: ExtensionIcon,
+    component: Extension
   },
   {
     path: "/contact",

@@ -34,14 +34,18 @@ function UserProfile(props) {
                         </CardAvatar>
                         <CardBody style={{paddingTop: 0}} profile>
                         <h4 style={styles.title}>Eylon Yogev</h4>
-                            <h6 className={classes.cardCategory}>Weizmann Institute of Science</h6>
+                            <h6 className={classes.cardCategory}>Technion</h6>
                             
-                            <p style={styles.description}>
-                                Hi, my name is Eylon and I am a postdoc hosted by <a href="http://www.weizmann.ac.il/math/parter/home" target="_blank" rel="noopener noreferrer">Dr. Merav Parter </a>.
-                                We are working on some interesting synergies between Cryptography and Distributed Computation. See my latest <a href="/publications">publications</a> with Merav if you are curious.
+							<p style={styles.description}>
+                                Hi, my name is Eylon and I am a postdoc hosted by <a href="http://www.cs.technion.ac.il/~yuvali/" target="_blank" rel="noopener noreferrer">Prof. Yuval Ishai</a>.
+                                We are working on some intriguing cryptographic primitives so stay tuned!
                             </p>
                             <p style={styles.description}>
-                                I have completed my Ph.D. at the Weizmann Institute of Science, where I was extremely lucky
+                                Previously, I was a postdoc at the Weizmann Institute of Science hosted by <a href="http://www.weizmann.ac.il/math/parter/home" target="_blank" rel="noopener noreferrer">Dr. Merav Parter</a>.
+                                By connecting our two fields, Merav and I studied new synergies between Cryptography and Distributed Computation. See my latest <a href="/publications">publications</a> with Merav if you are curious.
+                            </p>
+                            <p style={styles.description}>
+                                I have completed my Ph.D. also at Weizmann, where I was extremely lucky
                                 to be advised by <a href="http://www.wisdom.weizmann.ac.il/~/naor/" target="_blank" rel="noopener noreferrer">Prof. Moni Naor</a>. Before that, I completed my M.Sc at Weizmann in 2013 under the same
                                 supervisor.
                             </p>

@@ -12,6 +12,7 @@ const styles = {};
 class Publications extends React.Component {
 
     render() {
+        console.log(this.props.pubData);
         const pubs = this.props.pubData.map((pub, index) =>
 
             <GridItem xs={11} sm={11} md={11}>
