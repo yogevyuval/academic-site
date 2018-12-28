@@ -6,6 +6,8 @@ import CardBody from "components/Card/CardBody.jsx";
 import Video from '@material-ui/icons/OndemandVideo';
 import Button from '@material-ui/core/Button';
 import './publication.css'
+import CardAvatar from "components/Card/CardAvatar.jsx";
+import ExtensionIcon from "assets/img/extension-icon.png";
 
 const styles = {
     authors: {
@@ -34,7 +36,14 @@ const styles = {
 class Publication extends React.Component {
     
     lastNameSort = (a,b) => {
-        return a.split(" ").pop()[0] > b.split(" ").pop()[0]
+        var lastNameA = a.split(" ").pop();
+        var lastNameB = b.split(" ").pop();
+        
+        if (lastNameA < lastNameB)
+            return -1;
+        if (lastNameA > lastNameB)
+            return 1;
+        return 0;
     };
 
     buildAuthor = (author) => {
@@ -70,7 +79,7 @@ class Publication extends React.Component {
         const props = this.props;
         
 
-        return (<Card style={styles.pub}>
+        return (<Card style={styles.pub}>  
             <CardBody>
                 <a className="title" href={props.pub.pdf} target="_blank">
                     {props.index}. {props.pub.title}

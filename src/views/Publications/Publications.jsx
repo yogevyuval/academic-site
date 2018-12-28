@@ -5,7 +5,8 @@ import Grid from "@material-ui/core/Grid";
 // core components
 import GridItem from "components/Grid/GridItem.jsx";
 
-import Publication from "./Publication.jsx"
+import Publication from "./Publication.jsx";
+
 const styles = {};
 
 
