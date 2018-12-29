@@ -7,6 +7,8 @@ import CardBody from "components/Card/CardBody.jsx";
 import Grid from "@material-ui/core/Grid";
 import GridItem from "components/Grid/GridItem.jsx";
 
+import Icon from "assets/img/contactme.png";
+import CardAvatar from "components/Card/CardAvatar.jsx";
 const styles = {
   bold: {
     display: 'inline-block',
@@ -24,13 +26,16 @@ function Contact(props) {
     <Grid justify="center" container>
       <GridItem xs={11} sm={11} md={11}>
         <Card>
+        <CardAvatar profile>
+                <img src={Icon} alt=".."/>
+            </CardAvatar>
           <CardBody>
             <p>
               Please feel free to contact me for collaboration or any question or comment.
             </p>
 
             <p style={styles.bold}>Email:&nbsp;</p><span style={styles.text}>eylony at gmail dot com</span> <br/>
-            <p style={styles.bold}>Office:&nbsp;</p><span style={styles.text}>Weizmann Institute of Science, Ziskind Building, Room 258. </span> <br/>
+            <p style={styles.bold}>Office:&nbsp;</p><span style={styles.text}>Computer Science Department, Technion, Taub BUilding, Room 740. </span> <br/>
 
 
           </CardBody>

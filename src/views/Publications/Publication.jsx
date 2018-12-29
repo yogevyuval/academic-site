@@ -6,8 +6,7 @@ import CardBody from "components/Card/CardBody.jsx";
 import Video from '@material-ui/icons/OndemandVideo';
 import Button from '@material-ui/core/Button';
 import './publication.css'
-import CardAvatar from "components/Card/CardAvatar.jsx";
-import ExtensionIcon from "assets/img/extension-icon.png";
+
 
 const styles = {
     authors: {
