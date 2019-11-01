@@ -37,23 +37,22 @@ function UserProfile(props) {
                             <h6 className={classes.cardCategory}>Technion</h6>
                             
 							<p style={styles.description}>
-                                Hi, my name is Eylon and I am a postdoc hosted by <a href="http://www.cs.technion.ac.il/~yuvali/" target="_blank" rel="noopener noreferrer">Prof. Yuval Ishai</a>.
-                                We are working on some intriguing cryptographic primitives so stay tuned!
+                                I am a research fellow at the <a href="https://simons.berkeley.edu/" target="_blank" rel="noopener noreferrer">Simons Institute</a> for the Theory of Computing.
                             </p>
                             <p style={styles.description}>
-                                Previously, I was a postdoc at the Weizmann Institute of Science hosted by <a href="http://www.weizmann.ac.il/math/parter/home" target="_blank" rel="noopener noreferrer">Dr. Merav Parter</a>.
-                                By connecting our two fields, Merav and I studied new synergies between Cryptography and Distributed Computation. See my latest <a href="/publications">publications</a> with Merav if you are curious.
+                                Previously, I was a postdoc hosted by <a href="http://www.cs.technion.ac.il/~yuvali/" target="_blank" rel="noopener noreferrer">Prof. Yuval Ishai</a>
+                                and before that a postdoc at the Weizmann Institute of Science hosted by <a href="http://www.weizmann.ac.il/math/parter/home" target="_blank" rel="noopener noreferrer">Dr. Merav Parter</a>.
                             </p>
                             <p style={styles.description}>
-                                I have completed my Ph.D. also at Weizmann, where I was extremely lucky
+                                I have completed my Ph.D. also at Weizmann, where I was fortunate
                                 to be advised by <a href="http://www.wisdom.weizmann.ac.il/~/naor/" target="_blank" rel="noopener noreferrer">Prof. Moni Naor</a>. Before that, I completed my M.Sc at Weizmann in 2013 under the same
                                 supervisor.
                             </p>
                             
                             <p style={styles.description}>
-                                As you might have guessed already, I am generally interested in Cryptography and in particular in its various connections to other areas in
+                                As you might have guessed already, I am generally interested in Cryptography and in particular, in its various connections to other areas in
                                 Theoretical Computer Science. Some of the most prominent examples include Complexity, Data Structures, Distributed
-                                Algorithms and Search Problems. Send me an <a href="/contact">email</a> if you are interested in such
+                                Algorithms, and Search Problems. Send me an <a href="/contact">email</a> if you are interested in such
                                 connections too!
                             </p>
 
