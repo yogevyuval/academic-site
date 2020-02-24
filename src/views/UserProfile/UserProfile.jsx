@@ -34,19 +34,20 @@ function UserProfile(props) {
                         </CardAvatar>
                         <CardBody style={{paddingTop: 0}} profile>
                         <h4 style={styles.title}>Eylon Yogev</h4>
-                            <h6 className={classes.cardCategory}>Technion</h6>
+                            <h6 className={classes.cardCategory}>Boston University and Tel Aviv University</h6>
                             
+                            <p style={styles.description}>
+                                I am postdoc co-affiliated at Boston University (hosted by <a href="https://www.bu.edu/cs/profiles/ran-canetti/" target="_blank" rel="noopener noreferrer">Ran Canetti</a>) and Tel Aviv University (hosted by <a href="https://sites.google.com/site/nirbitansky/" target="_blank" rel="noopener noreferrer">Nir Bitansky</a> and <a href="https://www.cs.tau.ac.il/~omerpa/" target="_blank" rel="noopener noreferrer">Omer Paneth</a>). 
+                            </p>
 							<p style={styles.description}>
-                                I am a research fellow at the <a href="https://simons.berkeley.edu/" target="_blank" rel="noopener noreferrer">Simons Institute</a> for the Theory of Computing.
+                                <b>2019:</b> A research fellow at the <a href="https://simons.berkeley.edu/" target="_blank" rel="noopener noreferrer">Simons Institute</a> for the Theory of Computing.
                             </p>
                             <p style={styles.description}>
-                                Previously, I was a postdoc hosted by <a href="http://www.cs.technion.ac.il/~yuvali/" target="_blank" rel="noopener noreferrer">Prof. Yuval Ishai</a>
-                                and before that a postdoc at the Weizmann Institute of Science hosted by <a href="http://www.weizmann.ac.il/math/parter/home" target="_blank" rel="noopener noreferrer">Dr. Merav Parter</a>.
+                                <b>2018-2019:</b> A postdoc at the Technion (hosted by <a href="http://www.cs.technion.ac.il/~yuvali/" target="_blank" rel="noopener noreferrer">Prof. Yuval Ishai</a>)  and the Weizmann Institute of Science (hosted by <a href="http://www.weizmann.ac.il/math/parter/home" target="_blank" rel="noopener noreferrer">Dr. Merav Parter</a>).
                             </p>
                             <p style={styles.description}>
-                                I have completed my Ph.D. also at Weizmann, where I was fortunate
-                                to be advised by <a href="http://www.wisdom.weizmann.ac.il/~/naor/" target="_blank" rel="noopener noreferrer">Prof. Moni Naor</a>. Before that, I completed my M.Sc at Weizmann in 2013 under the same
-                                supervisor.
+                                <b>2011-2018:</b> I have completed my Ph.D. and M.Sc at Weizmann, where I was fortunate
+                                to be advised by <a href="http://www.wisdom.weizmann.ac.il/~/naor/" target="_blank" rel="noopener noreferrer">Prof. Moni Naor</a>.
                             </p>
                             
                             <p style={styles.description}>
@@ -56,6 +57,13 @@ function UserProfile(props) {
                                 connections too!
                             </p>
 
+                            <p style={styles.description}>
+                                <b>Program Committees:</b>
+                                <ul>
+                                    <li><a href="https://eurocrypt.iacr.org/2020/" target="_blank" rel="noopener noreferrer">Eurocrypt 2020</a></li>
+                                    <li>TCC 2020</li>
+                                </ul>
+                            </p>
 
                             <Link to="/publications">
                                 <Button color="primary" round>
