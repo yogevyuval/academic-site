@@ -6,3 +6,5 @@ build/
 .firebaserc
 firebase.json
 *.cache
+.firebase/hosting.YnVpbGQ.cache
+src/.DS_Store

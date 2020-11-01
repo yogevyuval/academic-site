@@ -61,7 +61,7 @@ function UserProfile(props) {
                                 <b>Program Committees:</b>
                                 <ul>
                                     <li><a href="https://eurocrypt.iacr.org/2020/" target="_blank" rel="noopener noreferrer">Eurocrypt 2020</a></li>
-                                    <li>TCC 2020</li>
+                                    <li><a href="https://tcc.iacr.org/2020/" target="_blank" rel="noopener noreferrer">TCC 2020</a></li>
                                 </ul>
                             </p>
 

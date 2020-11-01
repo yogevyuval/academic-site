@@ -35,7 +35,7 @@ function Contact(props) {
             </p>
 
             <p style={styles.bold}>Email:&nbsp;</p><span style={styles.text}>eylony at gmail dot com</span> <br/>
-            <p style={styles.bold}>Office:&nbsp;</p><span style={styles.text}>Computer Science Department, Technion, Taub BUilding, Room 740. </span> <br/>
+            <p style={styles.bold}>Office:&nbsp;</p><span style={styles.text}>Computer Science Department, Tel-Aviv University, Checkpoint Building, Room 370. </span> <br/>
 
 
           </CardBody>
