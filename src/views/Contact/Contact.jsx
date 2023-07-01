@@ -34,8 +34,9 @@ function Contact(props) {
               Please feel free to contact me for collaboration or any question or comment.
             </p>
 
-            <p style={styles.bold}>Email:&nbsp;</p><span style={styles.text}>eylony at gmail dot com</span> <br/>
-            <p style={styles.bold}>Office:&nbsp;</p><span style={styles.text}>Computer Science Department, Tel-Aviv University, Checkpoint Building, Room 370. </span> <br/>
+            <p style={styles.bold}>Email:&nbsp;</p><span style={styles.text}>eylon.yogev (at) biu.ac.il</span> <br/>
+            <p style={styles.bold}>Office:&nbsp;</p><span style={styles.text}>Center for Research in Applied Cryptography and Cyber Security Building 206 (Nanotechnology),
+5th floor , Bar-Ilan University 5290002, Ramat-Gan, Israel.</span> <br/>
 
 
           </CardBody>
